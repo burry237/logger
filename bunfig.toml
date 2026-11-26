@@ -1,0 +1,12 @@
+
+[fmt]
+sortImports = true
+ignorePatterns = ["dist/", "node_modules/"] # just in case 
+jsdoc = true
+
+[lint]
+# typeAware = true   # also run the rules that need types
+
+[lint.rules]
+# "no-console" = "warn"
+# "eqeqeq" = ["error", "smart"]

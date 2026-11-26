@@ -1,0 +1,13 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+
+  "name": "@burry/logger",
+  "license": "MIT",
+  "version": "1.0.0",
+
+  "publish": {
+    "include": ["src"]
+  },
+
+  "exports": "./src/index.ts"
+}
